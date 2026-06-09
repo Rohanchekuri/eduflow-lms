@@ -1,0 +1,8 @@
+[build] 
+  base = "client" 
+  command = "npm run build" 
+  publish = "client/build" 
+ 
+[build.environment] 
+  NPM_CONFIG_PRODUCTION = "false" 
+  CI = "false" 
